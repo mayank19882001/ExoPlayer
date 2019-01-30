@@ -94,6 +94,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
   private Format[] streamFormats;
   private CodecMaxValues codecMaxValues;
   private boolean codecNeedsSetOutputSurfaceWorkaround;
+  private static boolean deviceNeedsSetOutputSurfaceWorkaround;
   private static boolean evaluatedDeviceNeedsSetOutputSurfaceWorkaround;
 
   private Surface surface;
